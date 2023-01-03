@@ -1,0 +1,7 @@
+a=int(input())
+arr=[]
+i=0;
+for i in range(a) :
+                arr.append(int(sys.stdin.readline()))
+
+print (sorted(arr))
